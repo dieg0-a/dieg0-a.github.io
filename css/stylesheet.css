@@ -16,8 +16,29 @@ html,body {
 
 .left_pane_row {
    width: 100%;
-
    display: flex;
+}
+
+.item_text {
+  float: left;
+  color: white;
+
+}
+.icon
+{
+  float: left;
+  height:20px;
+}
+.left_item_spacer
+{
+  width:20px;
+  background-color:#1e252b ;
+}
+
+.menu_item
+{
+  flex-grow: 1;
+  background-color:#1e252b ;
 }
 
 .left_pane_row_right_space
@@ -28,19 +49,32 @@ html,body {
 
 }
 
+
 .menu_button{
   border-width: 0px;
-  width: 100px;
+  flex-grow: 1;
+  font-size:x-large;
+  color: white;
+  font-weight: 700;
 }
 
 .menu_button, .menu_button_left_space {
    height: 40px;
 }
 
-.menu_button_left_space {
-   background-color: #1e252b;
-   flex-grow: 1;
+.menu_button_left_space
+{
+  width: 10px;
+}
 
+.menu_button_left_space, .inter_item_space {
+   background-color: #1e252b;
+}
+
+.inter_item_space
+{
+  flex-grow: 1;
+  height:10px;
 }
 
 .button_bottom_spacer{
@@ -86,6 +120,21 @@ border-color: transparent transparent white transparent;
 
 #skills_right {
    background-color: #8dc73f;
+}
+
+
+#languages_button {
+  background: #db114d;
+  flex-grow: 1;
+}
+
+#languages_wrap {
+/*  background-color: coral;*/
+  background-color: #c90743;
+}
+
+#languages_right {
+   background-color: #db114d;
 }
 
 .right_pane {

@@ -2,6 +2,7 @@ html,
 body {
   background-image: linear-gradient(#e8eaf0d0,
       #808185);
+      font-family: "Open Sans", "sans-serif";
 }
 
 
@@ -54,6 +55,8 @@ body {
 
 .skill_name {
   display: flex;
+  text-align: left;
+  max-width: 120px;
 }
 
 .skill_bar_fill{
@@ -184,6 +187,7 @@ body {
   background-color: white;
   flex-grow: 1;
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 .filler_column {
@@ -244,8 +248,9 @@ body {
   width: 180px;
 }
 
-#name {
-  text-align: center;
+h1 {
+  font-size:60px;
+  font-weight: 700;
 }
 
 .cv_image_menu_transition {
@@ -322,16 +327,8 @@ body {
 }
 
 
-body {
-  font-family: Arial, sans-serif;
-  font-size: 12pt;
-}
-h1 {
-  font-size: 24pt;
-  text-align: center;
-}
 .section-header {
-  font-size: 18pt;
+  font-size: 24pt;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -348,17 +345,19 @@ h1 {
     padding-top: 0px;
   }
 
-  .left_pane,
   .center_area {
     max-width: 600px;
-    width: 100%;
-    text-align: center;
+    overflow: hidden;
+  }
+  .left_pane{
+    max-width: 600px;
     overflow: hidden;
   }
 
   .content_container {
-    display: block;
+    flex-direction: column;
     width: 100%;
+    min-width:unset;
     flex-grow: 1;
 
   }
@@ -417,10 +416,6 @@ h1 {
     left: 300px;
   }
 
-  #checkered_pattern_l {}
-
-  #tr_triangle {}
-
 }
 
 
@@ -431,18 +426,16 @@ h1 {
 
   .left_pane,
   .center_area {
-    max-width: 600px;
-    min-width: 600px;
-    display: block;
-    text-align: center;
-    overflow: hidden;
+    flex-grow: 1;
+    min-width: unset;
+    max-width: unset;
   }
 
   .content_container {
-    display: block;
     width: 600px;
     max-width: 600px;
     min-width: 600px;
+    flex-direction: column;
 
   }
 

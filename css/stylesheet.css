@@ -1,8 +1,9 @@
 html,
 body {
-  background-image: linear-gradient(#e8eaf0d0,
-      #808185);
+  background-image:url("background.svg");
       font-family: "Open Sans", "sans-serif";
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 

@@ -1,5 +1,4 @@
 function toggleSubSectionVisible(subsection_element_name) {
-    //document.getElementById("").innerHTML = "YOU CLICKED ME!";
     var element = document.getElementById(subsection_element_name);
     if(element.style.visibility == "hidden")
     {
@@ -11,10 +10,7 @@ function toggleSubSectionVisible(subsection_element_name) {
         element.style.visibility = "hidden";
         element.style.maxHeight = 0;
     }
-
   }
-
-
 
 document.getElementById("contact_button").addEventListener("click", function toggleContact() {toggleSubSectionVisible("contact_subsection")});
 document.getElementById("skills_button").addEventListener("click", function toggleSkills() {toggleSubSectionVisible("skills_subsection")});

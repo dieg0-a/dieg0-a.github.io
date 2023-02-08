@@ -18,27 +18,32 @@
         <div class="filler_column"></div>
         <div class="content_container">
             <div class="left_pane">
-                <div class="left_pane_row">
-                    <div id="cv_image_top_container">
-                        <img src="img/tardgreta.png" id="profile_image" />
-                    </div>
-                    <div class="left_pane_row_right_space"></div>
-                </div>
-                <div class="left_pane_row">
-                    <div class="cv_image_menu_transition">
-                        <div class="diagonal_stripe">
-                            <div class="top_triangle" id="tl_triangle"></div>
-                            <div class="checkered" id="checkered_pattern_l"></div>
-                            <div class="bottom_triangle" style="top: 20px"></div>
-                            <div class="dark"></div>
+                <div class="image_area" style="position: relative;display: flex;flex-direction: column;">
+                    <div class="left_pane_row" style="/*! position: absolute; */">
+                        <div id="cv_image_top_container">
+                            <img id="profile_image" src="img/profilepic.png">
                         </div>
-                        <div class="diagonal_stripe" id="right_side_diagonal_stripe">
-                            <div class="checkered" style="height: 40px;" id="checkered_pattern_r"></div>
-                            <div class="top_triangle" id="tr_triangle"></div>
-                            <div class="bottom_triangle" style="top: 40px"></div>
-                        </div>
+                        <div class="left_pane_row_right_space"></div>
                     </div>
-                    <div class="left_pane_row_right_space"></div>
+                    <div class="left_pane_row"
+                        style="position: absolute;/*! align-content: end; */align-self: end;height: 100%;flex: 1;">
+                        <div class="image_placeholder" style="display: flex;flex: 1;flex-direction: column;">
+                            <div class="image_placeholder_spacer" style="flex: 1;"></div>
+                            <div class="cv_image_menu_transition">
+                                <div class="diagonal_stripe">
+                                    <div class="top_triangle" id="tl_triangle"></div>
+                                    <div class="bottom_triangle" style="top: 20px"></div>
+                                    <div class="dark"></div>
+                                </div>
+                                <div class="diagonal_stripe" id="right_side_diagonal_stripe">
+                                    <div class="top_triangle" id="tr_triangle"></div>
+                                    <div class="bottom_triangle" style="top: 40px"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="left_pane_row_right_space"></div>
+                    </div>
                 </div>
 
                 <div class="left_pane_row">
@@ -255,8 +260,8 @@
                         <div class="timeline_item" style="display: flex;">
                             <div class="timeline_item_dot_line"
                                 style="display: flex;flex-direction: column;align-items: center;">
-                                <div class="timeline-dot-1"
-                                    style="width: 20px;height: 20px;background-color: #f6911d;border-radius: 50%;"></div>
+                                <div class="timeline-dot-1">
+                                </div>
                                 <div class="timeline-line"></div>
                             </div>
                             <div class="timeline_body">
@@ -283,8 +288,8 @@
                         <div class="timeline_item" style="display: flex;">
                             <div class="timeline_item_dot_line"
                                 style="display: flex;flex-direction: column;align-items: center;">
-                                <div class="timeline-dot-2"
-                                    style="width: 20px;height: 20px;background-color: #8dc73f;border-radius: 50%;"></div>
+                                <div class="timeline-dot-2">
+                                </div>
                                 <div class="timeline-line">
                                 </div>
                             </div>
@@ -312,8 +317,8 @@
                         <div class="timeline_item" style="display: flex;">
                             <div class="timeline_item_dot_line"
                                 style="display: flex;flex-direction: column;align-items: center;">
-                                <div class="timeline-dot-3"
-                                    style="width: 20px;height: 20px;background-color: #db114d;border-radius: 50%;"></div>
+                                <div class="timeline-dot-3">
+                                </div>
                             </div>
                             <div class="timeline_body">
                                 <div class="timeline_item_header">
@@ -344,16 +349,17 @@
                         <div class="timeline_item" style="display: flex;">
                             <div class="timeline_item_dot_line"
                                 style="display: flex;flex-direction: column;align-items: center;">
-                                <div class="timeline-dot-3"
-                                    style="width: 20px;height: 20px;background-color: #db114d;border-radius: 50%;"></div>
-                                    <div class="timeline-line"></div>
+                                <div class="timeline-dot-1">
+                                </div>
+                                <div class="timeline-line"></div>
                             </div>
                             <div class="timeline_body">
                                 <div class="timeline_item_header">
                                     <div class="timeline_date">2014-2016</div>
                                     <div class="timeline_title_area">
                                         <div class="timeline_body_title">Universidad de Buenos Aires (UBA)</div>
-                                        <div class="timeline_body_subtitle">Diplomado en Tecnología de la Información</div>
+                                        <div class="timeline_body_subtitle">Diplomado en Tecnología de la Información
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="timeline_body_content">
@@ -363,15 +369,17 @@
                         <div class="timeline_item" style="display: flex;">
                             <div class="timeline_item_dot_line"
                                 style="display: flex;flex-direction: column;align-items: center;">
-                                <div class="timeline-dot-3"
-                                    style="width: 20px;height: 20px;background-color: #db114d;border-radius: 50%;"></div>
+                                <div class="timeline-dot-2">
+                                </div>
                             </div>
                             <div class="timeline_body">
                                 <div class="timeline_item_header">
                                     <div class="timeline_date">2010-2014</div>
                                     <div class="timeline_title_area">
-                                        <div class="timeline_body_title">Instituto Tecnológico de Buenos Aires (ITBA)</div>
-                                        <div class="timeline_body_subtitle">Bachiller en Ciencias de la Computación</div>
+                                        <div class="timeline_body_title">Instituto Tecnológico de Buenos Aires (ITBA)
+                                        </div>
+                                        <div class="timeline_body_subtitle">Bachiller en Ciencias de la Computación
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="timeline_body_content">

@@ -16,378 +16,399 @@
 
     <div class="main_row">
         <div class="filler_column"></div>
-        <div class="content_container">
-            <div class="left_pane">
-                <div class="image_area" style="position: relative;display: flex;flex-direction: column;">
-                    <div class="left_pane_row" style="/*! position: absolute; */">
-                        <div id="cv_image_top_container">
-                            <img id="profile_image" src="img/profilepic.png">
+        <div class="top_content_container">
+            <div class="content_container">
+                <div class="left_pane">
+                    <div class="image_area" style="position: relative;display: flex;flex-direction: column;">
+                        <div class="left_pane_row" style="/*! position: absolute; */">
+                            <div id="cv_image_top_container">
+                                <img id="profile_image" src="img/profilepic.png">
+                            </div>
+                            <div class="left_pane_row_right_space"></div>
+                        </div>
+                        <div class="left_pane_row"
+                            style="position: absolute;/*! align-content: end; */align-self: end;height: 100%;flex: 1;">
+                            <div class="image_placeholder" style="display: flex;flex: 1;flex-direction: column;">
+                                <div class="image_placeholder_spacer" style="flex: 1;"></div>
+                                <div class="cv_image_menu_transition">
+                                    <div class="diagonal_stripe">
+                                        <div class="top_triangle" id="tl_triangle"></div>
+                                        <div class="bottom_triangle" style="top: 20px"></div>
+                                        <div class="dark"></div>
+                                    </div>
+                                    <div class="diagonal_stripe" id="right_side_diagonal_stripe">
+                                        <div class="top_triangle" id="tr_triangle"></div>
+                                        <div class="bottom_triangle" style="top: 40px"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="left_pane_row_right_space"></div>
+                        </div>
+                    </div>
+
+                    <div class="left_pane_row">
+                        <div id="left_pane_menu_area">
                         </div>
                         <div class="left_pane_row_right_space"></div>
                     </div>
-                    <div class="left_pane_row"
-                        style="position: absolute;/*! align-content: end; */align-self: end;height: 100%;flex: 1;">
-                        <div class="image_placeholder" style="display: flex;flex: 1;flex-direction: column;">
-                            <div class="image_placeholder_spacer" style="flex: 1;"></div>
-                            <div class="cv_image_menu_transition">
-                                <div class="diagonal_stripe">
-                                    <div class="top_triangle" id="tl_triangle"></div>
-                                    <div class="bottom_triangle" style="top: 20px"></div>
-                                    <div class="dark"></div>
-                                </div>
-                                <div class="diagonal_stripe" id="right_side_diagonal_stripe">
-                                    <div class="top_triangle" id="tr_triangle"></div>
-                                    <div class="bottom_triangle" style="top: 40px"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="left_pane_row_right_space"></div>
-                    </div>
-                </div>
-
-                <div class="left_pane_row">
-                    <div id="left_pane_menu_area">
-                    </div>
-                    <div class="left_pane_row_right_space"></div>
-                </div>
-                <div class="left_pane_section">
-                    <div class="left_pane_row">
-                        <div class="menu_button_left_space"></div>
-                        <button class="menu_button" id="contact_button">CONTACTO</button>
-                        <div class="left_pane_row_right_space" id="contact_right"></div>
-                    </div>
-
-                    <div class="left_pane_row">
-                        <div class="button_bottom_spacer"></div>
-                        <div class="button_wrap" id="contact_wrap"></div>
-                    </div>
-                    <div class="left_pane_subsection" id="contact_subsection">
+                    <div class="left_pane_section">
                         <div class="left_pane_row">
-                            <div class="left_item_spacer"></div>
-                            <div class="menu_item">
-                                <img src="img/phone.png" class="icon" style="width:20px;" />
-                                <div class="item_text">&nbsp;&nbsp;&nbsp;&nbsp;+33 777 444 33</div>
-                            </div>
-                            <div class="left_pane_row_right_space"></div>
-                        </div>
-                        <div class="left_pane_row">
-                            <div class=inter_item_space></div>
-                            <div class="left_pane_row_right_space"></div>
-                        </div>
-                        <div class="left_pane_row">
-                            <div class="left_item_spacer"></div>
-                            <div class="menu_item">
-                                <img src="img/mail.png" class="icon" style="width:20px;" />
-                                <div class="item_text">&nbsp;&nbsp;&nbsp;&nbsp;loremipsum@email.com</div>
-                            </div>
-                            <div class="left_pane_row_right_space"></div>
-                        </div>
-                        <div class="left_pane_row">
-                            <div class=inter_item_space></div>
-                            <div class="left_pane_row_right_space"></div>
-                        </div>
-                        <div class="left_pane_row">
-                            <div class="left_item_spacer"></div>
-                            <div class="menu_item">
-                                <img src="img/website.png" class="icon" style="width:20px;" />
-                                <div class="item_text">&nbsp;&nbsp;&nbsp;&nbsp;yourwebsite.com</div>
-                            </div>
-                            <div class="left_pane_row_right_space"></div>
-                        </div>
-                        <div class="left_pane_row">
-                            <div class=inter_item_space></div>
-                            <div class="left_pane_row_right_space"></div>
-                        </div>
-                        <div class="left_pane_row">
-                            <div class="left_item_spacer"></div>
-                            <div class="menu_item">
-                                <img src="img/location.png" class="icon" style="width:20px;" />
-                                <div class="item_text">&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit </div>
-                            </div>
-                            <div class="left_pane_row_right_space"></div>
+                            <div class="menu_button_left_space"></div>
+                            <button class="menu_button" id="contact_button">CONTACTO</button>
+                            <div class="left_pane_row_right_space" id="contact_right"></div>
                         </div>
 
                         <div class="left_pane_row">
-                            <div class=inter_item_space></div>
-                            <div class="left_pane_row_right_space"></div>
+                            <div class="button_bottom_spacer"></div>
+                            <div class="button_wrap" id="contact_wrap"></div>
                         </div>
+                        <div class="left_pane_subsection" id="contact_subsection">
+                            <div class="left_pane_row">
+                                <div class="left_item_spacer"></div>
+                                <div class="menu_item">
+                                    <img src="img/phone.png" class="icon" style="width:20px;" />
+                                    <div class="item_text">&nbsp;&nbsp;&nbsp;&nbsp;+33 777 444 33</div>
+                                </div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                            <div class="left_pane_row">
+                                <div class=inter_item_space></div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                            <div class="left_pane_row">
+                                <div class="left_item_spacer"></div>
+                                <div class="menu_item">
+                                    <img src="img/mail.png" class="icon" style="width:20px;" />
+                                    <div class="item_text">&nbsp;&nbsp;&nbsp;&nbsp;loremipsum@email.com</div>
+                                </div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                            <div class="left_pane_row">
+                                <div class=inter_item_space></div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                            <div class="left_pane_row">
+                                <div class="left_item_spacer"></div>
+                                <div class="menu_item">
+                                    <img src="img/website.png" class="icon" style="width:20px;" />
+                                    <div class="item_text">&nbsp;&nbsp;&nbsp;&nbsp;yourwebsite.com</div>
+                                </div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                            <div class="left_pane_row">
+                                <div class=inter_item_space></div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                            <div class="left_pane_row">
+                                <div class="left_item_spacer"></div>
+                                <div class="menu_item">
+                                    <img src="img/location.png" class="icon" style="width:20px;" />
+                                    <div class="item_text">&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit </div>
+                                </div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+
+                            <div class="left_pane_row">
+                                <div class=inter_item_space></div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left_pane_section">
+                        <div class="left_pane_row">
+                            <div class="menu_button_left_space"></div>
+                            <button class="menu_button" id="skills_button">HABILIDADES</button>
+                            <div class="left_pane_row_right_space" id="skills_right"></div>
+                        </div>
+                        <div class="left_pane_row">
+                            <div class="button_bottom_spacer"></div>
+                            <div class="button_wrap" id="skills_wrap"></div>
+                        </div>
+                        <div class="left_pane_subsection" id="skills_subsection">
+                            <div class="left_pane_row">
+                                <div class="left_item_spacer"></div>
+                                <div class="menu_item">
+                                    <div class="skill_name">Conocimiento avanzado en sistemas operativos Windows y
+                                        Linux.
+                                    </div>
+                                    <div class="skill_spacer"></div>
+                                    <div class="skill_bar">
+                                        <div class="skill_bar_fill" style="width:70%;"></div>
+                                        <div class="skill_bar_empty"></div>
+                                    </div>
+                                </div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                            <div class="left_pane_row">
+                                <div class=inter_item_space></div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                            <div class="left_pane_row">
+                                <div class="left_item_spacer"></div>
+                                <div class="menu_item">
+                                    <div class="skill_name">Experiencia en el desarrollo de software con lenguajes como
+                                        Java
+                                        y
+                                        Python.</div>
+                                    <div class="skill_spacer"></div>
+                                    <div class="skill_bar">
+                                        <div class="skill_bar_fill" style="width:30%;"></div>
+                                        <div class="skill_bar_empty"></div>
+                                    </div>
+                                </div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                            <div class="left_pane_row">
+                                <div class=inter_item_space></div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                            <div class="left_pane_row">
+                                <div class="left_item_spacer"></div>
+                                <div class="menu_item">
+                                    <div class="skill_name">Habilidades de resolución de problemas y análisis técnico.
+                                    </div>
+                                    <div class="skill_spacer"></div>
+                                    <div class="skill_bar">
+                                        <div class="skill_bar_fill" style="width:80%;"></div>
+                                        <div class="skill_bar_empty"></div>
+                                    </div>
+                                </div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                            <div class="left_pane_row">
+                                <div class=inter_item_space></div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                            <div class="left_pane_row">
+                                <div class="left_item_spacer"></div>
+                                <div class="menu_item">
+                                    <div class="skill_name">Buenas habilidades de comunicación y trabajo en equipo.
+                                    </div>
+                                    <div class="skill_spacer"></div>
+                                    <div class="skill_bar">
+                                        <div class="skill_bar_fill" style="width:80%;"></div>
+                                        <div class="skill_bar_empty"></div>
+                                    </div>
+                                </div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                            <div class="left_pane_row">
+                                <div class=inter_item_space></div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                            <div class="left_pane_row">
+                                <div class="left_item_spacer"></div>
+                                <div class="menu_item">
+                                    <div class="skill_name">Conocimiento básico de redes y seguridad informática.</div>
+                                    <div class="skill_spacer"></div>
+                                    <div class="skill_bar">
+                                        <div class="skill_bar_fill" style="width:80%;"></div>
+                                        <div class="skill_bar_empty"></div>
+                                    </div>
+                                </div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                            <div class="left_pane_row">
+                                <div class=inter_item_space></div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left_pane_section">
+                        <div class="left_pane_row">
+                            <div class="menu_button_left_space"></div>
+                            <button class="menu_button" id="languages_button">IDIOMAS</button>
+                            <div class="left_pane_row_right_space" id="languages_right"></div>
+                        </div>
+                        <div class="left_pane_row">
+                            <div class="button_bottom_spacer"></div>
+                            <div class="button_wrap" id="languages_wrap"></div>
+                        </div>
+                        <div class="left_pane_subsection" id="languages_subsection">
+                            <div class="left_pane_row">
+                                <div class="left_item_spacer"></div>
+                                <div class="language_flags_container">
+                                    <img class="language_flag" src="img/es.png" />
+                                    <img class="language_flag" src="img/uk.png" />
+                                    <img class="language_flag" src="img/se.png" />
+                                </div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                            <div class="left_pane_row">
+                                <div class=inter_item_space></div>
+                                <div class="left_pane_row_right_space"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left_pane_footer">
+                        <div class="left_pane_row"></div>
+                        <div class="left_pane_footer_right_side"></div>
                     </div>
                 </div>
-                <div class="left_pane_section">
-                    <div class="left_pane_row">
-                        <div class="menu_button_left_space"></div>
-                        <button class="menu_button" id="skills_button">HABILIDADES</button>
-                        <div class="left_pane_row_right_space" id="skills_right"></div>
-                    </div>
-                    <div class="left_pane_row">
-                        <div class="button_bottom_spacer"></div>
-                        <div class="button_wrap" id="skills_wrap"></div>
-                    </div>
-                    <div class="left_pane_subsection" id="skills_subsection">
-                        <div class="left_pane_row">
-                            <div class="left_item_spacer"></div>
-                            <div class="menu_item">
-                                <div class="skill_name">Conocimiento avanzado en sistemas operativos Windows y Linux.
-                                </div>
-                                <div class="skill_spacer"></div>
-                                <div class="skill_bar">
-                                    <div class="skill_bar_fill" style="width:70%;"></div>
-                                    <div class="skill_bar_empty"></div>
-                                </div>
-                            </div>
-                            <div class="left_pane_row_right_space"></div>
-                        </div>
-                        <div class="left_pane_row">
-                            <div class=inter_item_space></div>
-                            <div class="left_pane_row_right_space"></div>
-                        </div>
-                        <div class="left_pane_row">
-                            <div class="left_item_spacer"></div>
-                            <div class="menu_item">
-                                <div class="skill_name">Experiencia en el desarrollo de software con lenguajes como Java
-                                    y
-                                    Python.</div>
-                                <div class="skill_spacer"></div>
-                                <div class="skill_bar">
-                                    <div class="skill_bar_fill" style="width:30%;"></div>
-                                    <div class="skill_bar_empty"></div>
-                                </div>
-                            </div>
-                            <div class="left_pane_row_right_space"></div>
-                        </div>
-                        <div class="left_pane_row">
-                            <div class=inter_item_space></div>
-                            <div class="left_pane_row_right_space"></div>
-                        </div>
-                        <div class="left_pane_row">
-                            <div class="left_item_spacer"></div>
-                            <div class="menu_item">
-                                <div class="skill_name">Habilidades de resolución de problemas y análisis técnico.</div>
-                                <div class="skill_spacer"></div>
-                                <div class="skill_bar">
-                                    <div class="skill_bar_fill" style="width:80%;"></div>
-                                    <div class="skill_bar_empty"></div>
-                                </div>
-                            </div>
-                            <div class="left_pane_row_right_space"></div>
-                        </div>
-                        <div class="left_pane_row">
-                            <div class=inter_item_space></div>
-                            <div class="left_pane_row_right_space"></div>
-                        </div>
-                        <div class="left_pane_row">
-                            <div class="left_item_spacer"></div>
-                            <div class="menu_item">
-                                <div class="skill_name">Buenas habilidades de comunicación y trabajo en equipo.</div>
-                                <div class="skill_spacer"></div>
-                                <div class="skill_bar">
-                                    <div class="skill_bar_fill" style="width:80%;"></div>
-                                    <div class="skill_bar_empty"></div>
-                                </div>
-                            </div>
-                            <div class="left_pane_row_right_space"></div>
-                        </div>
-                        <div class="left_pane_row">
-                            <div class=inter_item_space></div>
-                            <div class="left_pane_row_right_space"></div>
-                        </div>
-                        <div class="left_pane_row">
-                            <div class="left_item_spacer"></div>
-                            <div class="menu_item">
-                                <div class="skill_name">Conocimiento básico de redes y seguridad informática.</div>
-                                <div class="skill_spacer"></div>
-                                <div class="skill_bar">
-                                    <div class="skill_bar_fill" style="width:80%;"></div>
-                                    <div class="skill_bar_empty"></div>
-                                </div>
-                            </div>
-                            <div class="left_pane_row_right_space"></div>
-                        </div>
-                        <div class="left_pane_row">
-                            <div class=inter_item_space></div>
-                            <div class="left_pane_row_right_space"></div>
+                <div class="center_area">
+                    <h1 id="name">JUAN PEREZ</h1>
+                    <div class="section">
+                        <div class="section-header">RESUMEN</div>
+                        <div class="item">
+                            Profesional altamente motivado con más de 5 años de experiencia en el campo de la
+                            tecnología.
+                            Con un enfoque en la solución de problemas y la mejora continua, he desempeñado roles clave
+                            en
+                            proyectos exitosos en empresas de renombre. Busco una oportunidad en una empresa en
+                            crecimiento
+                            donde pueda utilizar mis habilidades y experiencia para contribuir al éxito del negocio.
                         </div>
                     </div>
-                </div>
-                <div class="left_pane_section">
-                    <div class="left_pane_row">
-                        <div class="menu_button_left_space"></div>
-                        <button class="menu_button" id="languages_button">IDIOMAS</button>
-                        <div class="left_pane_row_right_space" id="languages_right"></div>
-                    </div>
-                    <div class="left_pane_row">
-                        <div class="button_bottom_spacer"></div>
-                        <div class="button_wrap" id="languages_wrap"></div>
-                    </div>
-                    <div class="left_pane_subsection" id="languages_subsection">
-                        <div class="left_pane_row">
-                            <div class="left_item_spacer"></div>
-                            <div class="language_flags_container">
-                                <img class="language_flag" src="img/es.png" />
-                                <img class="language_flag" src="img/uk.png" />
-                                <img class="language_flag" src="img/se.png" />
+                    <div class="section">
+                        <div class="section-header">EXPERIENCIA LABORAL</div>
+                        <br>
+
+                        <div class="timeline">
+                            <div class="timeline_item" style="display: flex;">
+                                <div class="timeline_item_dot_line"
+                                    style="display: flex;flex-direction: column;align-items: center;">
+                                    <div class="timeline-dot-1">
+                                    </div>
+                                    <div class="timeline-line"></div>
+                                </div>
+                                <div class="timeline_body">
+                                    <div class="timeline_item_header">
+                                        <div class="timeline_date">2020-Actualidad</div>
+                                        <div class="timeline_title_area">
+                                            <div class="timeline_body_title">TechSolutions</div>
+                                            <div class="timeline_body_subtitle">Tecnólogo de soporte</div>
+                                        </div>
+                                    </div>
+                                    <div class="timeline_body_content">
+                                        <ul>
+                                            <li>Proporcionar soporte técnico a clientes internos y externos en un
+                                                entorno de
+                                                alta
+                                                presión.</li>
+                                            <li>Resolver problemas técnicos relacionados con hardware, software y redes.
+                                            </li>
+                                            <li>Participar en proyectos de implementación de nuevos sistemas y
+                                                tecnologías.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="left_pane_row_right_space"></div>
-                        </div>
-                        <div class="left_pane_row">
-                            <div class=inter_item_space></div>
-                            <div class="left_pane_row_right_space"></div>
+                            <div class="timeline_item" style="display: flex;">
+                                <div class="timeline_item_dot_line"
+                                    style="display: flex;flex-direction: column;align-items: center;">
+                                    <div class="timeline-dot-2">
+                                    </div>
+                                    <div class="timeline-line">
+                                    </div>
+                                </div>
+                                <div class="timeline_body">
+                                    <div class="timeline_item_header">
+                                        <div class="timeline_date">2018-2020</div>
+                                        <div class="timeline_title_area">
+                                            <div class="timeline_body_title">GlobalTech</div>
+                                            <div class="timeline_body_subtitle">Analista de sistemas</div>
+                                        </div>
+                                    </div>
+                                    <div class="timeline_body_content">
+                                        <ul>
+                                            <li>Analizar y diseñar soluciones de software para clientes empresariales.
+                                            </li>
+                                            <li>Implementar y mantener sistemas críticos para la operación diaria de la
+                                                empresa.</li>
+                                            <li>Colaborar con equipos de desarrollo de software para garantizar la
+                                                calidad y
+                                                el
+                                                rendimiento de los sistemas.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timeline_item" style="display: flex;">
+                                <div class="timeline_item_dot_line"
+                                    style="display: flex;flex-direction: column;align-items: center;">
+                                    <div class="timeline-dot-3">
+                                    </div>
+                                </div>
+                                <div class="timeline_body">
+                                    <div class="timeline_item_header">
+                                        <div class="timeline_date">2016-2018</div>
+                                        <div class="timeline_title_area">
+                                            <div class="timeline_body_title">NextGen</div>
+                                            <div class="timeline_body_subtitle">Asistente de tecnología</div>
+                                        </div>
+                                    </div>
+                                    <div class="timeline_body_content">
+                                        <ul>
+                                            <li>Proporcionar soporte técnico básico a usuarios internos.</li>
+                                            <li>Realizar tareas administrativas relacionadas con la tecnología, como la
+                                                instalación de
+                                                software y hardware.</li>
+                                            <li>Participar en proyectos pequeños de implementación de tecnología.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-                </div>
-                <div class="left_pane_footer">
-                    <div class="left_pane_row"></div>
-                    <div class="left_pane_footer_right_side"></div>
+                    <div class="section">
+                        <div class="section-header">ESTUDIOS</div>
+                        <br>
+                        <div class="timeline">
+                            <div class="timeline_item" style="display: flex;">
+                                <div class="timeline_item_dot_line"
+                                    style="display: flex;flex-direction: column;align-items: center;">
+                                    <div class="timeline-dot-1">
+                                    </div>
+                                    <div class="timeline-line"></div>
+                                </div>
+                                <div class="timeline_body">
+                                    <div class="timeline_item_header">
+                                        <div class="timeline_date">2014-2016</div>
+                                        <div class="timeline_title_area">
+                                            <div class="timeline_body_title">Universidad de Buenos Aires (UBA)</div>
+                                            <div class="timeline_body_subtitle">Diplomado en Tecnología de la
+                                                Información
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="timeline_body_content">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline_item" style="display: flex;">
+                                <div class="timeline_item_dot_line"
+                                    style="display: flex;flex-direction: column;align-items: center;">
+                                    <div class="timeline-dot-2">
+                                    </div>
+                                </div>
+                                <div class="timeline_body">
+                                    <div class="timeline_item_header">
+                                        <div class="timeline_date">2010-2014</div>
+                                        <div class="timeline_title_area">
+                                            <div class="timeline_body_title">Instituto Tecnológico de Buenos Aires
+                                                (ITBA)
+                                            </div>
+                                            <div class="timeline_body_subtitle">Bachiller en Ciencias de la Computación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="timeline_body_content">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="center_area">
-                <h1 id="name">JUAN PEREZ</h1>
-                <div class="section">
-                    <div class="section-header">RESUMEN</div>
-                    <div class="item">
-                        Profesional altamente motivado con más de 5 años de experiencia en el campo de la tecnología.
-                        Con un enfoque en la solución de problemas y la mejora continua, he desempeñado roles clave en
-                        proyectos exitosos en empresas de renombre. Busco una oportunidad en una empresa en crecimiento
-                        donde pueda utilizar mis habilidades y experiencia para contribuir al éxito del negocio.
-                    </div>
-                </div>
-                <div class="section">
-                    <div class="section-header">EXPERIENCIA LABORAL</div>
-                    <br>
+            <div class="footer">
+                <footer>
+                    <p class="footer-text">Copyright &#xa9; Diego Andino Desarrollado para el curso de Frontend de Argentina Programa 4.0</p>
 
-                    <div class="timeline">
-                        <div class="timeline_item" style="display: flex;">
-                            <div class="timeline_item_dot_line"
-                                style="display: flex;flex-direction: column;align-items: center;">
-                                <div class="timeline-dot-1">
-                                </div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="timeline_body">
-                                <div class="timeline_item_header">
-                                    <div class="timeline_date">2020-Actualidad</div>
-                                    <div class="timeline_title_area">
-                                        <div class="timeline_body_title">TechSolutions</div>
-                                        <div class="timeline_body_subtitle">Tecnólogo de soporte</div>
-                                    </div>
-                                </div>
-                                <div class="timeline_body_content">
-                                    <ul>
-                                        <li>Proporcionar soporte técnico a clientes internos y externos en un entorno de
-                                            alta
-                                            presión.</li>
-                                        <li>Resolver problemas técnicos relacionados con hardware, software y redes.
-                                        </li>
-                                        <li>Participar en proyectos de implementación de nuevos sistemas y tecnologías.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="timeline_item" style="display: flex;">
-                            <div class="timeline_item_dot_line"
-                                style="display: flex;flex-direction: column;align-items: center;">
-                                <div class="timeline-dot-2">
-                                </div>
-                                <div class="timeline-line">
-                                </div>
-                            </div>
-                            <div class="timeline_body">
-                                <div class="timeline_item_header">
-                                    <div class="timeline_date">2018-2020</div>
-                                    <div class="timeline_title_area">
-                                        <div class="timeline_body_title">GlobalTech</div>
-                                        <div class="timeline_body_subtitle">Analista de sistemas</div>
-                                    </div>
-                                </div>
-                                <div class="timeline_body_content">
-                                    <ul>
-                                        <li>Analizar y diseñar soluciones de software para clientes empresariales.</li>
-                                        <li>Implementar y mantener sistemas críticos para la operación diaria de la
-                                            empresa.</li>
-                                        <li>Colaborar con equipos de desarrollo de software para garantizar la calidad y
-                                            el
-                                            rendimiento de los sistemas.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline_item" style="display: flex;">
-                            <div class="timeline_item_dot_line"
-                                style="display: flex;flex-direction: column;align-items: center;">
-                                <div class="timeline-dot-3">
-                                </div>
-                            </div>
-                            <div class="timeline_body">
-                                <div class="timeline_item_header">
-                                    <div class="timeline_date">2016-2018</div>
-                                    <div class="timeline_title_area">
-                                        <div class="timeline_body_title">NextGen</div>
-                                        <div class="timeline_body_subtitle">Asistente de tecnología</div>
-                                    </div>
-                                </div>
-                                <div class="timeline_body_content">
-                                    <ul>
-                                        <li>Proporcionar soporte técnico básico a usuarios internos.</li>
-                                        <li>Realizar tareas administrativas relacionadas con la tecnología, como la
-                                            instalación de
-                                            software y hardware.</li>
-                                        <li>Participar en proyectos pequeños de implementación de tecnología.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="section">
-                    <div class="section-header">ESTUDIOS</div>
-                    <br>
-                    <div class="timeline">
-                        <div class="timeline_item" style="display: flex;">
-                            <div class="timeline_item_dot_line"
-                                style="display: flex;flex-direction: column;align-items: center;">
-                                <div class="timeline-dot-1">
-                                </div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="timeline_body">
-                                <div class="timeline_item_header">
-                                    <div class="timeline_date">2014-2016</div>
-                                    <div class="timeline_title_area">
-                                        <div class="timeline_body_title">Universidad de Buenos Aires (UBA)</div>
-                                        <div class="timeline_body_subtitle">Diplomado en Tecnología de la Información
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="timeline_body_content">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="timeline_item" style="display: flex;">
-                            <div class="timeline_item_dot_line"
-                                style="display: flex;flex-direction: column;align-items: center;">
-                                <div class="timeline-dot-2">
-                                </div>
-                            </div>
-                            <div class="timeline_body">
-                                <div class="timeline_item_header">
-                                    <div class="timeline_date">2010-2014</div>
-                                    <div class="timeline_title_area">
-                                        <div class="timeline_body_title">Instituto Tecnológico de Buenos Aires (ITBA)
-                                        </div>
-                                        <div class="timeline_body_subtitle">Bachiller en Ciencias de la Computación
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="timeline_body_content">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </footer>
             </div>
         </div>
         <div class="filler_column"></div>

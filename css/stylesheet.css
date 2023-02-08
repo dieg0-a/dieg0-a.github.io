@@ -279,7 +279,7 @@ body {
 }
 
 h1 {
-  font-size:60px;
+  font-size:45px;
   font-weight: 700;
 }
 
@@ -341,8 +341,6 @@ h1 {
   background-color: #1e252d;
   position: absolute;
 }
-
-#tl_triangle {}
 
 #tr_triangle {
   top: 20px;
@@ -504,9 +502,6 @@ section {
     width: 100%;
   }
 
-  .diagonal_stripe {
-  }
-
   #right_side_diagonal_stripe {
     left: 300px;
   }
@@ -584,9 +579,6 @@ section {
     background-color: 1e252d;
     height: 20px;
     width: 100%;
-  }
-
-  .diagonal_stripe {
   }
 
   #right_side_diagonal_stripe {

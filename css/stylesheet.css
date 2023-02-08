@@ -297,20 +297,6 @@ h1 {
   position: relative;
 }
 
-.checkered {
-  background-image: repeating-linear-gradient(45deg, #bdbec2 25%, transparent 25%, transparent 75%, #bdbec2 75%, #bdbec2), repeating-linear-gradient(45deg, #bdbec2 25%, #e6e7eb 25%, #e6e7eb 75%, #bdbec2 75%, #bdbec2);
-  background-position: 10px 20px, 30px 40px;
-  background-size: 40px 40px;
-  height: 20px;
-  position: absolute;
-  width: 150px
-}
-
-
-#checkered_pattern_l {
-  background-position: 0 20px, 20px 40px;
-}
-
 .dark {
   background-color: #1e252d;
   height: 20px;
@@ -488,14 +474,6 @@ section {
     background-color: #1e252d;
   }
 
-  .checkered {
-    background-image: repeating-linear-gradient(45deg, #bdbec2 25%, transparent 25%, transparent 75%, #bdbec2 75%, #bdbec2), repeating-linear-gradient(45deg, #bdbec2 25%, #e6e7eb 25%, #e6e7eb 75%, #bdbec2 75%, #bdbec2);
-    background-position: 20px 20px, 40px 40px;
-    background-size: 40px 40px;
-    height: 20px;
-    width: 300px;
-  }
-
   .dark {
     background-color: 1e252d;
     height: 20px;
@@ -565,14 +543,6 @@ section {
 
   #left_pane_menu_area {
     background-color: #1e252d;
-  }
-
-  .checkered {
-    background-image: repeating-linear-gradient(45deg, #bdbec2 25%, transparent 25%, transparent 75%, #bdbec2 75%, #bdbec2), repeating-linear-gradient(45deg, #bdbec2 25%, #e6e7eb 25%, #e6e7eb 75%, #bdbec2 75%, #bdbec2);
-    background-position: 20px 20px, 40px 40px;
-    background-size: 40px 40px;
-    height: 20px;
-    width: 300px;
   }
 
   .dark {
